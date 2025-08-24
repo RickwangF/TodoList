@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.todoList {
+  background-color: #dff0ff;
+  border-radius: 1vh;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 1em;
+}
+
+.todoList ul li {
+  text-align: left;
+  margin: 0;
+}
+
+.textAreaContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo-textArea {
+  width: 300px;
+  min-height: 200px;
+}
